@@ -19,3 +19,14 @@ Desplegar la aplicación en módo producción
 ```bash
 npm run build
 ```
+
+Correr servidor en módo producción
+
+```bash
+npm run start
+```
+
+Cerrar aplicación
+
+> ***Ctrl+C
+

@@ -28,5 +28,5 @@ npm run start
 
 Cerrar aplicación
 
-> ***Ctrl+C
+> ***Ctrl+C***
 

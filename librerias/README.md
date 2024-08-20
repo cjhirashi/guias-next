@@ -23,3 +23,36 @@ npm install react-icons --save
 ## Prisma
 
 Gestor de base de datos, PostgresQL, SQL Server, SQL Lite, MongoDB, etc, ver [Documentación](https://www.prisma.io/docs)
+
+Instalar librería
+
+```bash
+npm install @prisma/client@latest @prisma/extension-accelerate
+```
+
+Iniciar prisma en proyecto
+
+```bash
+npx prisma init
+```
+
+Con la creación de modelo en prisma, se realiza una migración
+
+```bash
+npx prisma migrate dev
+```
+
+Se crea cliente de módelos creados
+
+```bash
+npx prisma generate
+```
+
+## Yup
+
+Esquemas de validación de datos para API, ver [Documentación](https://www.npmjs.com/package/yup/v/1.0.0-alpha.3)
+
+```bash
+npm install yup
+```
+

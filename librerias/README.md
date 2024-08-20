@@ -19,3 +19,7 @@ Librería de iconos para sistema, ver [Documentación](https://react-icons.githu
 ```bash
 npm install react-icons --save
 ```
+
+## Prisma
+
+Gestor de base de datos, PostgresQL, SQL Server, SQL Lite, MongoDB, etc, ver [Documentación](https://www.prisma.io/docs)

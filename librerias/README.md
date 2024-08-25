@@ -57,3 +57,16 @@ Esquemas de validación de datos para API, ver [Documentación](https://www.npmj
 npm install yup
 ```
 
+## Cookies-next
+
+```bash
+npm install --save cookies-next
+```
+
+## AuthJS
+
+Gestor de sesión de usuarios, ver [Documentación](https://authjs.dev/)
+
+```bash
+
+```

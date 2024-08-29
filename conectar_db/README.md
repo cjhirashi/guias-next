@@ -55,7 +55,7 @@ npx prisma migrate dev --name init
 prisma generate
 ```
 
-8. Crear un archivo en la siguiente ruta de la carpeta raiz del proyecto ***src/lib/prisma.ts***
+8. Crear un archivo en la siguiente ruta de la carpeta raiz del proyecto ***src/lib/prisma.ts*** para gestionar a los clientes de tablas de ***Prisma***
 
 ***prisma.ts***
 

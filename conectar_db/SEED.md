@@ -9,6 +9,7 @@ Un ejemplo de cómo lo podemos implementar:
 2. Dentro de la carpeta creada, crear el siguiente archivo `src/seed/seed-database.ts`
 
 ```typescript
+// Información de EJEMPLO
 import { initialData } from './seed';
 import prisma from '../lib/prisma';
 
@@ -80,6 +81,7 @@ src/seed/> npx tsc --init
 6. Crear el archivo `src/seed/seed.ts`, con la data que será inyectada desde el ***seed*** a la ***base de datos***
 
 ```typescript
+// Información de EJEMPLO
 interface Object2 {
     name: string;
     description: string;

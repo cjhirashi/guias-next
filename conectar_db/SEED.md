@@ -4,9 +4,9 @@ Este nos sirve para establecer o restablecer los datos de partida de la base de 
 
 Un ejemplo de cómo lo podemos implementar:
 
-1. Crear una carpeta llamada ***seed*** dentro de la carpeta raiz de nuestra aplicación `src/seed`
+1. Crear una carpeta llamada ***seed*** dentro de la carpeta raiz de nuestra aplicación `src/seed/`
 
-2. Dentro de la carpeta creada, crear el siguiente archivo ***seed-database.ts***
+2. Dentro de la carpeta creada, crear el siguiente archivo `src/seed/seed-database.ts`
 
 ```typescript
 import { initialData } from './seed';
@@ -61,7 +61,7 @@ async function main() {
 npm i -D ts-node
 ```
 
-4. En el archivo ***package.json*** del proyecto, en la parte de los *scripts* crear el siguiente *script*
+4. En el archivo `package.json` del proyecto, en la parte de los *scripts* crear el siguiente *script*
 
 ```JSON
 {
@@ -71,15 +71,13 @@ npm i -D ts-node
 }
 ```
 
-5. Entrar a la ruta del *seed* ***src/seed/*** en la consola y ejecutamos el siguiente comando para crear dentro de esta el archivo de configuración ***tsconfig.json***
+5. Entrar a la ruta del *seed* `src/seed/` en la consola y ejecutamos el siguiente comando para crear dentro de esta el archivo de configuración `src/seed/tsconfig.json`
 
 ```bash
 src/seed/> npx tsc --init
 ```
 
-6. Cargar el archivo con la data que se cargará desde el ***seed***
-
-Archivo ***seed.ts***
+6. Crear el archivo `src/seed/seed.ts`, con la data que será inyectada desde el ***seed*** a la *base de datos*
 
 ```typescript
 interface Object2 {

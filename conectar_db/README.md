@@ -43,19 +43,19 @@ DATABASE_URL="postgresql://[USER]:[PASSWORD]@localhost:5432/[NAME]?schema=public
 prisma db pull
 ```
 
-6. En caso que queramos crear Tablas nuevas en el proyecto, deberemos crear *Schemas* de las tablas que vamos a utilizar, cada que queramos migrar estos nuevos esquemas a la base de datos o modificarlos, deberemos ejecutar una migración de esto a la base de datos ejecutando el siguiente comando. En *--name* indicar el nombre que se le asignará a la migración, si se trata de la primer migración, podremos indicarla como init para identificar que es la primera, esto solo es para identificar las diferentes migraciones que realicemos al proyecto
+6. En caso que queramos crear Tablas nuevas en el proyecto, deberemos crear *Schemas* de las tablas que vamos a utilizar, cada que queramos migrar estos nuevos esquemas a la base de datos o modificarlos, deberemos ejecutar una migración de esto a la base de datos ejecutando el siguiente comando. En `--name` indicar el nombre que se le asignará a la migración, si se trata de la primer migración, podremos indicarla como init para identificar que es la primera, esto solo es para identificar las diferentes migraciones que realicemos al proyecto
 
 ```bash
 npx prisma migrate dev --name init
 ```
 
-Si realizamos un *Pull* o un *migrate* a la base de datos, tendremos que ejecutar el siguiente comando para crear los CLientes para la gestión de las tablas creadas o modificadas dentro de la base de datos para poder gestionarlas dentro del proyecto
+7. Si realizamos un *Pull* o un *migrate* a la base de datos, tendremos que ejecutar el siguiente comando para crear los CLientes para la gestión de las tablas creadas o modificadas dentro de la base de datos para poder gestionarlas dentro del proyecto
 
 ```bash
 prisma generate
 ```
 
-Crear un archivo en la siguiente ruta de la carpeta raiz del proyecto ***src/lib/prisma.ts***
+8. Crear un archivo en la siguiente ruta de la carpeta raiz del proyecto ***src/lib/prisma.ts***
 
 ***prisma.ts***
 

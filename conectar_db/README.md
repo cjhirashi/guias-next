@@ -16,7 +16,7 @@ npm install prisma --save-dev
 npx prisma init --datasource-provider PostgreSQL
 ```
 
-3. Esto creará un achivo en la siguiente ruta ***prisma/schema.prisma***, en este archivo será donde deberemos crear los schemas de las tablas que requerimos gestionar
+3. Esto creará un achivo en la siguiente ruta `prisma/schema.prisma`, en este archivo será donde deberemos crear los schemas de las tablas que requerimos gestionar
 
 ```prisma
 generator client {
@@ -31,7 +31,7 @@ datasource db {
 // Nuevos Schemas...
 ```
 
-4. Esto generará también la variable de entorno `DATABASE_URL` dentro del archivo ***.env*** en la cual se deberá asignar la ruta de conexión a la base de datos
+4. Esto generará también la variable de entorno `DATABASE_URL` dentro del archivo `.env` en la cual se deberá asignar la ruta de conexión a la base de datos
 
 ```env
 DATABASE_URL="postgresql://[USER]:[PASSWORD]@localhost:5432/[NAME]?schema=public"
@@ -55,7 +55,7 @@ npx prisma migrate dev --name init
 prisma generate
 ```
 
-8. Crear un archivo en la siguiente ruta de la carpeta raiz del proyecto ***src/lib/prisma.ts*** para gestionar a los clientes de tablas de ***Prisma***
+8. Crear un archivo en la siguiente ruta de la carpeta raiz del proyecto `src/lib/prisma.ts` para gestionar a los clientes de tablas de ***Prisma***
 
 ***prisma.ts***
 

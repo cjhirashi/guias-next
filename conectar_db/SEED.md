@@ -55,7 +55,7 @@ async function main() {
 })();
 ```
 
-3. Para que este archivo pueda ser ejecutado desde la consola, instalar la dependencia en modo desarrollo ***ts-node*** ejecutando el siguiente comando, este permite ejecutar archivos de *typescript* directamente desde *node*
+3. Para que este archivo pueda ser ejecutado desde la consola, instalar la dependencia en modo desarrollo `ts-node` ejecutando el siguiente comando, este permite ejecutar archivos de *typescript* directamente desde *node*
 
 ```bash
 npm i -D ts-node
@@ -77,7 +77,7 @@ npm i -D ts-node
 src/seed/> npx tsc --init
 ```
 
-6. Crear el archivo `src/seed/seed.ts`, con la data que será inyectada desde el ***seed*** a la *base de datos*
+6. Crear el archivo `src/seed/seed.ts`, con la data que será inyectada desde el ***seed*** a la ***base de datos***
 
 ```typescript
 interface Object2 {
